@@ -1,5 +1,5 @@
 package com.example;
-
+int a;
 /**
  * This is a class.
  */
