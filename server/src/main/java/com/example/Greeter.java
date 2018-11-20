@@ -1,9 +1,10 @@
 package com.example;
-int a;
+
 /**
  * This is a class.
  */
 public class Greeter {
+  int a;
 
   /**
    * This is a constructor.
