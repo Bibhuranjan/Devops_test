@@ -1,6 +1,6 @@
 node {
 stage('SCM Checkout'){
-  def JAVA_HOME = tool name: 'Java', type: 'jdk'
+  
 
 git 'https://github.com/Bibhuranjan/Devops_test'
 }
