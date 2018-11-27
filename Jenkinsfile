@@ -1,7 +1,7 @@
 node {
 stage('SCM Checkout'){
   def JAVA_HOME = tool name: 'java', type: 'jdk'
-  -Djdk.net.URLClassPath.disableClassPathURLCheck=true
+  JENKINS_JAVA_OPTIONS="-Djdk.net.URLClassPath.disableClassPathURLCheck=true"
 
 git 'https://github.com/Bibhuranjan/Devops_test'
 }
