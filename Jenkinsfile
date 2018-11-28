@@ -12,7 +12,7 @@ stage('compile-package'){
   stage('Sonarqube-Analysis') {
       def mvnHome = tool name: 'Maven', type: 'maven'
     withSonarQubeEnv('sonarqube') {
-      sh "${mvnHome/bin/mvn sonar:sonar" 
+      sh "${mvnHome}/bin/mvn sonar:sonar" 
     }
   }
 }
